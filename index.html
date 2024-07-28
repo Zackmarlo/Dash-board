@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash board</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="premium.css">
+</head>
+<body class="light">
+    <div class=" big-container">
+        <div class="sidebar">
+            <div class="close">x</div>
+            <div class="logo">
+                <svg width="53" height="78" viewBox="0 0 53 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.104 62L19.88 17.2H32.36L52.2 62H39.016L23.528 23.408H28.52L13.032 62H0.104ZM10.92 53.296L14.184 43.952H36.072L39.336 53.296H10.92Z" fill="black"/>
+                    <path d="M8 44H20.5L26 30V17H20L8 44Z" fill="#FBFFFE"/>
+                    </svg>
+                    <div class="title">Ascend</div>
+            </div>
+
+            <div class="profile-pic"><img src="images/profile pic.jpg" alt="user profile pic"></div>
+
+            <div class="username">zackmarlo</div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="link-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 16 16" fill="blue">
+                            <!-- House shape -->
+                                <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" fill="#fff" stroke = "black" stroke-width="1" />
+                        
+                            </svg>Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="link" title="Courses">
+                            <img src="images/Courses.png" alt="graduation hat">Courses
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link" title="Contacts">
+                            <img src="images/Contacts.png" alt="person">Contacts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="link" title="Communities">
+                            <img src="images/Communities.png" alt="Communities">
+                            Communities
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="bottom">
+                <a href="#"><img src="images/Report.png" alt="Report">Report an issue</a>
+            </div>
+        </div>
+        <div class="container">
+            <header>
+                <div class="left-side">
+                    <button class="menu"><img src="images/menu.png" alt="menu"></button>
+                    <button class="math active">Math</button>
+                    <button class="programming">Programming</button>
+                </div>
+
+                <div class="search">
+                    <img src="images/search.png" alt="search icon">
+                    <input type="text" name="search" id="search-bar" placeholder="search for courses">
+                </div>
+
+                <div class="right-side">
+                    <div class="theme">
+                        <button><img src="images/dark theme.png" alt="dark theme icon"></button>
+                        
+                    </div>
+                    <button class="streak"><img src="images/streak off.png" alt="fire"></button>
+                    <button class="notification"><img src="images/notification.png" alt="bell"></button>
+                    <button class="settings"><img src="images/settings.png" alt="settings"></button>
+                    <button class="premium">
+                        Premium
+                        <img src="images/star yellow.png" alt="star" class="star-1">
+                        <img src="images/star yellow.png" alt="star" class="star-2">
+                        <img src="images/star yellow.png" alt="star" class="star-3">
+                        <img src="images/star yellow.png" alt="star" class="star-4">
+                        <img src="images/star yellow.png" alt="star" class="star-5">
+                        <img src="images/star yellow.png" alt="star" class="star-6">
+                    </button>
+                </div>
+            </header>
+            <div class="courses">
+                <div class="message">
+                    <p class="title">Hi, zackmarlo!</p>
+                    <p>What do you want <br> to <span>learn</span> today?</p>
+                </div>
+                <div class="cards-container">
+                    <button class="arrow left" disabled><</button>
+                    <div class="cards_background">
+                        <div class="card">
+                            <img src="images/Linear Algebra.png" alt="n"> 
+                            <p>Linear Algebra</p>
+                        </div>
+                        <div class="card">
+                            <img src="images/Calculus.png" alt="name">
+                            <p>Calculus</p>
+                        </div>
+                        <div class="card">
+                            <img src="images/Ordinary Deferential Equation.png" alt="f">
+                            <p>Ordinary Deferential Equation</p>
+                        </div>
+                        <div class="card">
+                            <img src="images/Abstract Algebra.png" alt="">
+                            <p>Abstract Algebra</p>
+                        </div>
+                    </div>
+                    <button class="arrow right">></button>
+                </div>
+            </div>
+            <div class="selected-courses">
+                <div class="user-course-card">
+                    <div class="course-data">
+                        <div class="progress-bar">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" viewBox="0 0 160 160">
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                            <div class="percentage">73%</div>
+                        </div>
+                        <div class="course-title">Linear Algebra</div>
+                    </div>
+                    <div class="finished">
+                        You completed <span class="completed-lessons">11</span>/<span class="lessons">15</span> Lessons
+                    </div>
+                    <button class="state">continue</button>
+                </div>
+                <div class="user-course-card">
+                    <div class="course-data">
+                        <div class="progress-bar">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" viewBox="0 0 160 160">
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                            <div class="percentage">80%</div>
+                        </div>
+                        <div class="course-title">Calculus</div>
+                    </div>
+                    <div class="finished">
+                        You completed <span class="completed-lessons">4</span>/<span class="lessons">5</span> Lessons
+                    </div>
+                    <button class="state">continue</button>
+                </div>
+                <div class="user-course-card">
+                    <div class="course-data">
+                        <div class="progress-bar">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" viewBox="0 0 160 160">
+                                <defs>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                            <div class="percentage">60%</div>
+                        </div>
+                        <div class="course-title">Statistics</div>
+                    </div>
+                    <div class="finished">
+                        You completed <span class="completed-lessons">3</span>/<span class="lessons">5</span> Lessons
+                    </div>
+                    <button class="state">continue</button>
+                </div>
+                <div class="user-course-card">
+                    <div class="course-data">
+                        <div class="progress-bar">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" viewBox="0 0 160 160">
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                            <div class="percentage">100%</div>
+                        </div>
+                        <div class="course-title">Abstract Algebra</div>
+                    </div>
+                    <div class="finished">
+                        You completed <span class="completed-lessons">8</span>/<span class="lessons">8</span> Lessons
+                    </div>
+                    <button class="state">completed</button>
+                </div>
+                <div class="user-course-card">
+                    <div class="course-data">
+                        <div class="progress-bar">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" viewBox="0 0 160 160">
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                            <div class="percentage">30%</div>
+                        </div>
+                        <div class="course-title">Number Theory</div>
+                    </div>
+                    <div class="finished">
+                        You completed <span class="completed-lessons">3</span>/<span class="lessons">10</span> Lessons
+                    </div>
+                    <button class="state">continue</button>
+                </div>
+                <div class="user-course-card">
+                    <div class="course-data">
+                        <div class="progress-bar">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px" viewBox="0 0 160 160">
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                            </svg>
+                            <div class="percentage">50%</div>
+                        </div>
+                        <div class="course-title">Discreet Math</div>
+                    </div>
+                    <div class="finished">
+                        You completed <span class="completed-lessons">6</span>/<span class="lessons">12</span> Lessons
+                    </div>
+                    <button class="state">continue</button>
+                </div>
+            </div>
+            <div class="assignments-container">
+                <div class="header">
+                        My assignments
+                </div>
+                <div class="content">
+                    <div class="assignment">
+                        <div class="title">
+                            <div class="name">Matrices</div>
+                            <div class="course-title">Linear Algebra</div>
+                        </div>
+                        <div class="duration">00h 30m</div>
+                        <div class="score-percent">
+                            <div class="percent">85%</div>
+                            <div class="bar">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="course-score"><span class="right-answers">12</span>/<span class="total-questions">20</span></div>
+                        <div class="date">30 August</div>
+                    </div>
+                    <div class="assignment">
+                        <div class="title">
+                            <div class="name">Probability1</div>
+                            <div class="course-title">Statistics</div>
+                        </div>
+                        <div class="duration">00h 40m</div>
+                        <div class="score-percent">
+                            <div class="percent">83%</div>
+                            <div class="bar">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="course-score"><span class="right-answers">25</span>/<span class="total-questions">30</span></div>
+                        <div class="date">20 July</div>
+                    </div>
+                    <div class="assignment">
+                        <div class="title">
+                            <div class="name">Vectors</div>
+                            <div class="course-title">Linear Algebra</div>
+                        </div>
+                        <div class="duration">01h 00m</div>
+                        <div class="score-percent">
+                            <div class="percent">92%</div>
+                            <div class="bar">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="course-score"><span class="right-answers">40</span>/<span class="total-questions">40</span></div>
+                        <div class="date">11 July</div>
+                    </div>
+                    <div class="assignment">
+                        <div class="title">
+                            <div class="name">Groups</div>
+                            <div class="course-title">Abstract Algebra</div>
+                        </div>
+                        <div class="duration">02h 00m</div>
+                        <div class="score-percent">
+                            <div class="percent">37%</div>
+                            <div class="bar">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="course-score"><span class="right-answers">22</span>/<span class="total-questions">60</span></div>
+                        <div class="date">20 June</div>
+                    </div>
+                    <button>view all</button>
+                </div>
+            </div>
+            <div class="calender">
+                <div class="head">
+                    <div class="month"></div>
+                    <div class="year-slider">
+                        <button class="return"><img src="images/schedule.png" alt="calender"></button>
+                        <button class="arrow prev"><</button>
+                        <div class="year">2024</div>
+                        <button class="arrow next">></button>
+                    </div>
+                </div>
+                <div class="cal-body">
+                    <div class="week">
+                        <div>Sun</div>
+                        <div>Mon</div>
+                        <div>Tue</div>
+                        <div>Wen</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                        <div>Sat</div>
+                    </div>
+                    <div class="days"></div>
+                    <div class="month-list">
+                        <div id="0">January</div>
+                        <div id="1">February</div>
+                        <div id="2">March</div>
+                        <div id="3">April</div>
+                        <div id="4">May</div>
+                        <div id="5">June</div>
+                        <div id="6">July</div>
+                        <div id="7">August</div>
+                        <div id="8">September</div>
+                        <div id="9">October</div>
+                        <div id="10">November</div>
+                        <div id="11">December</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

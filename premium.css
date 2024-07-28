@@ -1,0 +1,151 @@
+.container header .premium {
+    position: relative;
+    padding: 10px 12px;
+    background-color: rgb(240, 172, 2);
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    color: #181818;
+    border-radius: 8px;
+    box-shadow: 0 0 0 #fec1958c;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+  
+.star-1 {
+position: absolute;
+top: 20%;
+left: 20%;
+width: 25px;
+height: auto;
+filter: drop-shadow(0 0 0 #fffdef);
+z-index: -5;
+transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+}
+
+.star-2 {
+position: absolute;
+top: 45%;
+left: 45%;
+width: 15px;
+height: auto;
+filter: drop-shadow(0 0 0 #fffdef);
+z-index: -5;
+transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-3 {
+position: absolute;
+top: 40%;
+left: 40%;
+width: 5px;
+height: auto;
+filter: drop-shadow(0 0 0 #fffdef);
+z-index: -5;
+transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-4 {
+position: absolute;
+top: 20%;
+left: 40%;
+width: 8px;
+height: auto;
+filter: drop-shadow(0 0 0 #fffdef);
+z-index: -5;
+transition: all 0.8s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-5 {
+position: absolute;
+top: 25%;
+left: 45%;
+width: 15px;
+height: auto;
+filter: drop-shadow(0 0 0 #fffdef);
+z-index: -5;
+transition: all 0.6s cubic-bezier(0, 0.4, 0, 1.01);
+}
+
+.star-6 {
+position: absolute;
+top: 5%;
+left: 50%;
+width: 5px;
+height: auto;
+filter: drop-shadow(0 0 0 #fffdef);
+z-index: -5;
+transition: all 0.8s ease;
+}
+
+.container header .premium:hover {
+background: transparent;
+color: #fec195;
+border: 2px solid ;
+}
+
+.container header .premium:hover .star-1 {
+position: absolute;
+top: -50%;
+left: -20%;
+width: 25px;
+height: auto;
+filter: drop-shadow(0 0 10px #fffdef);
+z-index: 2;
+}
+
+.container header .premium:hover .star-2 {
+position: absolute;
+top: -10%;
+left: 12%;
+width: 15px;
+height: auto;
+filter: drop-shadow(0 0 10px #fffdef);
+z-index: 2;
+}
+
+.container header .premium:hover .star-3 {
+position: absolute;
+top: 65%;
+left: 25%;
+width: 9px;
+height: auto;
+filter: drop-shadow(0 0 10px #fffdef);
+z-index: 2;
+}
+
+.container header .premium:hover .star-4 {
+position: absolute;
+top: 50%;
+left: 80%;
+width: 15px;
+height: auto;
+filter: drop-shadow(0 0 10px #fffdef);
+z-index: 2;
+}
+
+.container header .premium:hover .star-5 {
+position: absolute;
+top: 45%;
+left: 103%;
+width: 20px;
+height: auto;
+filter: drop-shadow(0 0 10px #fffdef);
+z-index: 2;
+}
+
+.container header .premium:hover .star-6 {
+position: absolute;
+top: 5%;
+left: 60%;
+width: 8px;
+height: auto;
+filter: drop-shadow(0 0 10px #fffdef);
+z-index: 2;
+}
+
+.fil0 {
+fill: #fffdef;
+}
+  
